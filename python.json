@@ -1,0 +1,22 @@
+{
+	"": {
+  "prefix": "python",
+  "body": [
+    "from os import path",
+    "from datetime import datetime",
+    "import math, sys",
+    "nint = lambda: int(input())",
+    "if path.exists(r\"E:\\Code\\input.txt\"):",
+    "    sys.stdin = open(r\"E:\\Code\\input.txt\", mode = 'r')",
+    "    sys.stdout = open(r\"E:\\Code\\output.txt\", mode = 'w')",
+    "#def cleanName(s):",
+    "#return ' '.join([x[0].upper() + x[1:].lower() for x in s.split()])",
+    "   ",
+    "",
+    "#-------------------------------------------------------#",
+    "",
+    ""
+  ],
+  "description": ""
+}
+}
