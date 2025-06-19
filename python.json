@@ -2,9 +2,10 @@
 	"": {
   "prefix": "python",
   "body": [
-    "from os import path",
+    "import os, sys",
     "from datetime import datetime",
-    "from itertools import combinations",
+    "from collections import *",
+    "from itertools import *",
     "import math, sys, re",
     "nint = lambda: int(input())",
     "if path.exists(r\"E:\\Code\\input.txt\"):",
